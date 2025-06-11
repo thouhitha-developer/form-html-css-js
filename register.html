@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:pink">
+    <h2>Registration Form</h2>
+    <table border="2" style="background-color: lightblue">
+        <form >
+            <tr><td><label>FirstName:</label></td></tr><br>
+            <tr><td><input type="text" name="FirstName" placeholder="Enter your First Name"></td></tr><br>
+            <tr><td><label>MiddleName:</label></td></tr><br>
+            <tr><td><input type="text" name="MiddleName" placeholder="Enter your Middle Name"></td></tr><br>
+            <tr><td><label>LastName:</label></td></tr><br>
+            <tr><td><input type="text" name="LastName" placeholder="Enter your Last Name"></td></tr><br>
+            <tr>
+                <td>Course:
+                    <select>
+                        <option>BCA</option>
+                        <option>CS</option>
+                        <option>IT</option>
+                        <option>DS</option>
+                    
+                    </select>
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <label>Gender:</label><br>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female
+        <input type="radio" name="Gender" value="Transgender">Transgender<br>
+                </td>
+             </tr>
+             <tr><td>
+                Phone:<br>
+                <tr><td><input type="text" name="Phone"></td></tr>
+                <tr><td><input type="text" name="Phone"></td></tr>
+            </td>
+             </tr>
+             <tr>
+                <td>
+                    Current Addres:<br>
+                    <textarea placeholder="Enter your full address" row="10" cols="30"></textarea>
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <button type="submit" onclick="msg()">submit</button>
+                    <button type="reset">clear</button>
+                </td>
+             </tr>
+            </form>
+    </table>
+<script>
+    function msg(){
+        alert("welcome");
+    }
+</script>
+</body>

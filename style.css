@@ -1,0 +1,28 @@
+form{
+   
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: aquamarine;
+    text-align: center;
+    height: 200px;
+    width:fit-content
+}
+table{
+    margin-left: 550px;
+}
+h2{
+    text-align:center;
+    color:white;
+}
+
+button{
+    background-color: gold;
+}
+input{
+    background-color: white;
+}
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/012/872/841/original/abstract-background-with-an-attractive-appearance-and-can-be-used-for-your-background-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
